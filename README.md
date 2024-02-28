@@ -7,5 +7,5 @@ Ian Rockette - ibr22@fsu.edu
 Tatiana Cue - tbc20n@fsu.edu
 Connor Coop - cjc22m@fsu.edu
 
-Discription:
+Description:
 (To be Continued)
