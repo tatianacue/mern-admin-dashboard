@@ -16,8 +16,7 @@ import
     AppBar, 
     Button,
     Box,
-    Typography,
-    Icon, 
+    Typography, 
     IconButton, 
     InputBase, 
     Toolbar, 
@@ -96,24 +95,24 @@ const Navbar = ({
                             borderRadius="50%"
                             sx={{ objectFit: "cover"}}
                         />
-                           <Box textAlign="left">
-                                <Typography 
-                                fontWeight="bold" 
-                                fontSize="0.85rem" 
-                                sx={{ color: theme.palette.secondary[100] }}
-                                >
-                                    {user.name}
-                                </Typography>
-                                <Typography 
-                                fontSize="0.75rem" 
-                                sx={{ color: theme.palette.secondary[200] }}
-                                >
-                                    {user.occupation}
-                                </Typography>
-                            </Box>  
-                            <ArrowDropDownOutlined
-                                sx={{ color: theme.palette.secondary[300], fontSize: "25px" }}
-                            />
+                        <Box textAlign="left">
+                            <Typography 
+                            fontWeight="bold" 
+                            fontSize="0.85rem" 
+                            sx={{ color: theme.palette.secondary[100] }}
+                            >
+                                {user.name}
+                            </Typography>
+                            <Typography 
+                            fontSize="0.75rem" 
+                            sx={{ color: theme.palette.secondary[200] }}
+                            >
+                                {user.occupation}
+                            </Typography>
+                        </Box>  
+                        <ArrowDropDownOutlined
+                            sx={{ color: theme.palette.secondary[300], fontSize: "25px" }}
+                        />
                     </Button>
                     <Menu 
                     anchorEl = {anchorEl} 
