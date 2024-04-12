@@ -6,4 +6,4 @@ const index =  () => {
     )
 }
 
-export default index
+export default Daily;
